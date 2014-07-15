@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+log4php settings file for simpleframework
+TO BE COPIED in log4php config directory
+
+-->
+
+<configuration xmlns="http://logging.apache.org/log4php/">
+
+    <appender name="myConsoleAppender" class="LoggerAppenderConsole" />
+    
+    <appender name="myFileAppender" class="LoggerAppenderRollingFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} [%logger] %-5level %message%newline"/>
+            <!--<param name="conversionPattern" value="%date [%logger] %message%newline" />-->
+        </layout>
+        <param name="file" value="/srv/http/log/simpleframework.log" />
+        <param name="maxFileSize" value="2MB" />
+        <param name="maxBackupIndex" value="1" />
+    </appender>
+
+    <!--    <logger name="mainLogger">
+        <appender_ref ref="myConsoleAppender" />
+    </logger>-->
+    
+    <root>
+        <level value="INFO" />
+        <appender_ref ref="myFileAppender" />
+    </root>
+</configuration>

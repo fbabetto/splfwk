@@ -1,0 +1,42 @@
+		<div id="sidebar">
+
+			<div id="login">
+				<!-- currpage è solo un valore di comodo che viene cambiato nel codice php -->
+				<form method="post" action="currpage">
+					<fieldset>
+						<legend>Accesso utente</legend>
+						<label for="nome">Nome utente:</label><br />
+						<input type="text" name="username" size=8 />
+						<p />
+						<label for="password">Password:</label><br />
+						<input type="password" name="password" size=8 />
+					</fieldset>
+					<input type="submit" name="sb" value="conferma">
+				</form>
+			</div>
+
+			<div id="menu">
+				<ul>
+					<li><a href="index.php">Main page</a></li>
+					<li>
+					Menu title 1
+					<ul>
+						<li><a href="page1.php">Page 1</a></li>
+						<li><a href="page2.php">Page 2</a></li>
+						<li><a href="page3.php">Page 3</a></li>
+					</ul>
+					</li>
+					<li>
+					Menu title 2
+					<ul>
+						<li>
+						<ul>
+							<li><a href="page4.php">Page 4</a></li>
+						</ul>
+						</li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+
+		</div>

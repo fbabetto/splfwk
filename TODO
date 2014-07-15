@@ -1,0 +1,20 @@
+* usare
+authentication_enabled = 'true'
+use_log4php = 'true'
+
+in settings.ini.php per disabilitare e abilitare form di login e log4php
+
+* rendere log4php opzionale e usare un file semplice nel caso non sia presente
+
+* usare funzioni di php invece che shell_exec e exec in interfaccia di amministrazione e migliorare codice
+* migliorare gestione errori/permessi in interfaccia di amministrazione
+
+* controllare che funzioni in parsable non dipendano dal codice html specifico del div ma solo dal suo id
+
+* sistema di build in modo da poter mettere settings.ini.php senza suffisso e in un'altra posizione?
+
+* riorganizzare/aggiungere "package"?
+
+* migliorare sicurezza? escaping?
+
+* usare file template con estensioni html, php e htm (in questa sequenza)

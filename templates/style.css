@@ -1,0 +1,283 @@
+@CHARSET "UTF-8";
+
+/*mettere tutto in proporzione con % FIXME*/
+
+body
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: black;
+/*	background-color: white;*/
+	/*background-color: #DAE9DD;*/
+	margin: 0;
+}
+
+h2
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+h1
+{
+	margin: 0 5%;
+	font-size: 3em;
+}
+
+#header
+{
+	background-color: #CCBBAA;
+	color: white;
+	margin: 0;
+	padding: 1%;
+}
+
+#logo
+{
+	
+/*FIXME*/
+/*	display:block;*/
+	float: left;
+	background-image: url('../img/logo_arpav.png');
+	background-color: white;
+	background-repeat: no-repeat;
+	min-width: 207px;
+	min-height: 43px;
+	overflow: hidden;
+	margin: 0 5% 0 0;
+}
+
+#sidebar
+{
+	float: left;
+	/*max-width: 15%;*/
+	/*min-width: 13em;*/
+	/*background-color: lightgrey;*/
+	background-color: #CCBBAA;
+	text-align: left;
+	width: 15em;
+	min-height: 62em;
+}
+
+#login
+{
+
+	/*background-color: #DAE9DD;*/
+	margin: 5%;
+/*	padding: 1%*/
+}
+
+#menu
+{
+	/*margin: 5%;*/
+	/*padding: 1%;*/
+	margin-right: 0;
+	margin-left: 5%;
+	padding-right: 0;
+/*	max-width: 15%;*/
+/*	background-color: #d3d7cf;*/
+	/*background-color: #DAE9DD;*/
+}
+
+#menu ul
+{
+	list-style: none;
+	/*margin: 5%;*/
+	margin-right: 0;
+	margin-left: 1%;
+	padding: 0;
+	/*padding-right: 0;*/
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white;
+}
+
+#menu li
+{
+	/*margin-top: 5%;*/
+	/*padding: 1%;*/
+	padding-left: 5%;
+	margin-right: 0;
+	margin-bottom: 5%;
+}
+
+.menutitle{
+	font-variant: small-caps;
+}
+
+/*#menu li li {
+	border-style: none;
+}*/
+
+/*#menu ul ul*/
+/*{*/
+/*	border-top: solid;*/
+/*}*/
+
+#path
+{
+	background-color: #d3d7cf;
+	padding: 0.5% 1% 0.5%;
+}
+
+#content
+{
+/*	border-style: solid;*/
+	background-color: white;
+	/*margin-left: 10%;*/
+	margin-left: 15em;
+	padding: 1%;
+	min-height: 60em;
+}
+
+#footer
+{
+	overflow: hidden;
+	background-color: #CCBBAA;
+/*	background-color: #318452*/
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 1%
+}
+
+#simpleframeworkcontent {
+	margin: 5%
+}
+
+#adminmenu {
+	margin: 0;
+	padding: 0.5%;
+	background-color: gainsboro;
+}
+
+#adminmenu ul {
+	padding: 0;
+	list-style: none;
+}
+
+#adminmenu li {
+	padding: 0.5%;
+	display: inline;
+}
+
+.alert {
+	font-weight: bold;
+	/*color: red;*/
+}
+
+th {
+  background: none repeat scroll 0 0 #CCBBAA;
+  /*border: 1px solid #03476F;*/
+  border-style: none;
+}
+
+tr {
+/*	border: none;*/
+padding: 0.25em;
+}
+
+.datarow{
+	text-align: right;
+}
+
+td {
+	
+	/*text-align: right;*/
+}
+
+.even {
+	background-color: lightgray;
+}
+
+.notice {
+	font-weight: bold;
+	font-size: 1.1em;
+	border-style: dotted;
+	border-width: 0.1em;
+	text-align: center;
+	margin: 1%;
+	background-color: lightgray;
+}
+
+a:hover {
+	background-color: white;
+	/*font-weight: bold;*/
+	/*font-variant: small-caps;*/
+}
+
+fieldset fieldset {
+	display: inline;
+	background-color: lightgray;
+}
+
+#simpleframeworkcontent {
+	margin: 5%;
+	background: white;
+}
+
+#adminmenu {
+	margin: 0;
+	padding: 0.5%;
+	background-color: gainsboro;
+}
+
+#adminmenu ul {
+	padding: 0;
+	list-style: none;
+}
+
+#adminmenu li {
+	padding: 0.5%;
+	display: inline;
+}
+
+.alert {
+	font-weight: bold;
+	/*color: red;*/
+}
+
+tr {
+	border: 1px;
+}
+
+td {
+	
+	text-align: right;
+}
+
+#activepage {
+	background-color: white;
+}
+
+tr:hover {
+  background: #C2F64D;
+  color: #363636;
+  }
+  
+  a:visited {
+	  color: indigo;
+  }
+  
+  form {
+	  margin: 1%;
+	  padding: 1%;
+  }
+
+  #login p {
+	  text-align: center;
+  }
+  .username {
+	font-weight: bolder;
+  }
+  
+  .files {
+	  border-style: solid;
+	  border-width: 1px;
+	margin: 1em;
+	padding: 1em;
+  }
